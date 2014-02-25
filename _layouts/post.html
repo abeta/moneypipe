@@ -1,0 +1,31 @@
+---
+layout: default
+right:
+    type: blog-side
+    size: 4
+    style: raw
+---
+<article>
+  <header>
+    <h1 class="page-header">{{ page.title }}</h1>
+    <div class="don-share" data-limit="3">
+      <div class="don-share-total"></div>
+      <div class="don-share-facebook"></div>
+      <div class="don-share-twitter"></div>
+      <div class="don-share-google"></div>
+      <div class="don-share-linkedin"></div>
+      <div class="don-share-pinterest"></div>
+      <div class="don-share-stumbleupon"></div>
+    </div>
+    <script type="text/javascript"> 
+      (function() {
+        var dr = document.createElement('script');
+        dr.type = 'text/javascript'; dr.async = true;
+        dr.src = 'http://share.donreach.com/buttons.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
+      })();
+    </script>
+  </header>
+  {{ content }} </article>
+<hr>
+<div id="disqus_thread"></div>

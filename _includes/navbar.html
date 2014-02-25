@@ -1,0 +1,22 @@
+<a class="sr-only" href="#main">Skip to main content</a> 
+<div class="navbar navbar-inverse" role="navigation" id="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="/"><img src="/images/logo.png" alt=""></a>
+    </div>
+    <nav class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
+        <li{% if page.slug == "about" %} class="active"{% endif %}> <a href="{{ site.baseurl }}about.html">About</a></li>
+        <li{% if page.slug == "testimonials" %} class="active"{% endif %}> <a href="{{ site.baseurl }}testimonials.html">Testimonials</a></li>
+        <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.baseurl }}contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-big navbar-right">
+        <li{% if page.slug == "shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}shipping.html">Shipping</a></li>
+        <li{% if page.slug == "money-transfer" %} class="active"{% endif %}> <a href="{{ site.baseurl }}money-transfer.html">Money Transfer</a></li>
+        <li{% if page.slug == "storage" %} class="active"{% endif %}> <a href="{{ site.baseurl }}storage.html">Storage</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
