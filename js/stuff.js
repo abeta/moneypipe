@@ -24,8 +24,7 @@ function selectCity() {
 				html = html.replace(RegExp("\\{" + field + "\\}", "gi"), data[field]);
 			}
 			output.push(html);
-	console.log(html);
 		}
 	}
-	$('#collectionDates').html(output.join(''));
+	$('#collectionDates').html( (output.join('') ? output.join('') : 'Please select a city to view upcoming collection dates.') );
 }

@@ -19,14 +19,12 @@ sitemap:
         <div class="form-group">
           <label for "city">Select city</label>
           <select id="city" name="city" class="form-control" onchange="selectCity()">
-            <option>{{item.city}}</option>
-            
-	      {% assign items = site.data.schedule | sort:"city" %}{% for item in items %}
-		  {% unless lastitem == item.city %}
+            <option></option>
+	        {% assign items = site.data.schedule | sort:"city" %}{% for item in items %}
+		    {% unless lastitem == item.city %}
             <option value="{{item.city}}">{{item.city}}</option>
             {% endunless %}
-		  {% assign lastitem = item.city %}{% endfor %}
-		
+		    {% assign lastitem = item.city %}{% endfor %}
           </select>
         </div>
         <script>var schedule = {{site.data.schedule | jsonify}}</script>
