@@ -1,7 +1,6 @@
 ---
 layout: default
-title: ABE Media Web Design &middot; Website Design &amp; Development
-lead: Websites optimised for mobile phones & tablets. <br>Don't miss out on any customers, regardless of what device they are using to browse the web.
+title: Money Pipe
 slug: home
 image: /images/services/abemedia.png
 sitemap:
@@ -14,22 +13,44 @@ sitemap:
     <div class="jumbotron" style="background: url({{ site.baseurl }}images/shipping.jpg) center; background-size:cover; height:350px;"></div>
   </div>
   <div class="col-md-3">
+    <div class="box" style="min-height:203px;">
+      <h4 class="box-header">Next Collection</h4>
+      <form>
+        <div class="form-group">
+          <label for "city">Select city</label>
+          <select id="city" name="city" class="form-control" onchange="selectCity()">
+            <option>{{item.city}}</option>
+            
+	      {% assign items = site.data.schedule | sort:"city" %}{% for item in items %}
+		  {% unless lastitem == item.city %}
+            <option value="{{item.city}}">{{item.city}}</option>
+            {% endunless %}
+		  {% assign lastitem = item.city %}{% endfor %}
+		
+          </select>
+        </div>
+        <script>var schedule = {{site.data.schedule | jsonify}}</script>
+        <div id="collectionDates">Please select a city to view upcoming collection dates.</div>
+      </form>
+    </div>
     <div class="box">
-      <h4 class="box-header">Collection Schedule</h4>
+      <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmoneypipe&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:100px; width:100%; margin:-8px -10px 0;" allowTransparency="true"></iframe>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-3">
-    <h3>Door-to-Door Shipping</h3>
-  </div>
-  <div class="col-md-3">
-    <h3>Car Shipping</h3>
-  </div>
-  <div class="col-md-3">
-    <h3>Container Shipping</h3>
-  </div>
-  <div class="col-md-3">
-    <h3>Money Transfer</h3>
+<div class="well">
+  <div class="row text-center">
+    <div class="col-md-3"> <i class="fa fa-plane fa-5x"></i>
+      <h4>Door-to-Door Shipping</h4>
+    </div>
+    <div class="col-md-3"> <i class="fa fa-truck fa-5x"></i>
+      <h4>Car Shipping</h4>
+    </div>
+    <div class="col-md-3"> <i class="fa fa-dropbox fa-5x"></i>
+      <h4>Container Shipping</h4>
+    </div>
+    <div class="col-md-3"> <i class="fa fa-money fa-5x"></i>
+      <h4>Money Transfer</h4>
+    </div>
   </div>
 </div>
