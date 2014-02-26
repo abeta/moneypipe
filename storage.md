@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: service
 title: Storage
 slug: storage
 sitemap:
