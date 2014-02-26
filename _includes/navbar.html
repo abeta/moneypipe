@@ -13,7 +13,7 @@
         <li{% if page.slug == "contact" %} class="active"{% endif %}> <a href="{{ site.baseurl }}contact.html">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-big navbar-right">
-        <li{% if page.slug == "shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}shipping.html">Shipping</a></li>
+        <li{% if page.category == "shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}shipping.html">Shipping</a></li>
         <li{% if page.slug == "money-transfer" %} class="active"{% endif %}> <a href="{{ site.baseurl }}money-transfer.html">Money Transfer</a></li>
         <li{% if page.slug == "storage" %} class="active"{% endif %}> <a href="{{ site.baseurl }}storage.html">Storage</a></li>
       </ul>

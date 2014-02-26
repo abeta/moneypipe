@@ -1,7 +1,8 @@
 ---
 layout: service
-title: About Us
-slug: about
+title: Container Shipping
+slug: container-shipping
+category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly

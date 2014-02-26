@@ -2,6 +2,7 @@
 layout: service
 title: Air Freight
 slug: air-freight
+category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly

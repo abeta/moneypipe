@@ -2,6 +2,7 @@
 layout: service
 title: Hassle free shipping to The Gambia
 slug: car-shipping
+category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly

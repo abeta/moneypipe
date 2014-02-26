@@ -2,6 +2,7 @@
 layout: service
 title: Car Shipping
 slug: car-shipping
+category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly

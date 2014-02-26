@@ -4,16 +4,16 @@ layout: default
 <div class="row">
   <div class="col-md-3">
     <ul class="nav sidebar">
-	  <li><a href="#">Shipping</a>
+	  <li{% if page.category == "shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}shipping.html">Shipping</a>
         <ul class="nav">
-		  <li><a href="#">Door to door Shipping</a></li>
-		  <li><a href="#">Air Freight</a></li>
-		  <li><a href="#">Car Shipping</a></li>
-		  <li><a href="#">Container Shipping</a></li>
+		  <li{% if page.slug == "door-to-door-shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}door-to-door-shipping.html">Door to door Shipping</a></li>
+		  <li{% if page.slug == "air-freight" %} class="active"{% endif %}><a href="{{ site.baseurl }}air-freight.html">Air Freight</a></li>
+		  <li{% if page.slug == "car-shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}car-shipping.html">Car Shipping</a></li>
+		  <li{% if page.slug == "container-shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}container-shipping.html">Container Shipping</a></li>
 		</ul>
 	  </li>
-	  <li><a href="#">Money Transfer</a></li>
-	  <li><a href="#">Storage</a></li>
+	  <li{% if page.slug == "money-transfer" %} class="active"{% endif %}><a href="{{ site.baseurl }}money-transfer.html">Money Transfer</a></li>
+	  <li{% if page.slug == "storage" %} class="active"{% endif %}><a href="{{ site.baseurl }}storage.html">Storage</a></li>
 	</ul>
   </div>
   <div class="col-md-9">
