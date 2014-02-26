@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: service
 title: Car Shipping
 slug: car-shipping
 sitemap:
