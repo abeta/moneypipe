@@ -2,11 +2,13 @@
 layout: page
 title: About Us
 slug: about
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+sitemap: 
+  priority: 0.7
+  changefreq: monthly
+  lastmod: {}
+published: true
 ---
+
 Money Pipe is registered in England as a limited liability company.  Incorporated in 2009, we are relatively new but committed to grow and in the process give our customers a fantastic service that they will struggle to find elsewhere.
 
 A small dedicated team based in Brighton (East Sussex) is responsible for all our UK operations.
@@ -15,7 +17,7 @@ An equally dedicated team based in Banjul takes care of services in The Gambia.
 
 The relatively small teams dealing with you as a customer allow us to communicate and serve you in a hassle-free, relaxed and personal level but with the professionalism you would expect from the best in the business.
 
-## A business with a difference
+![](//blics-new-cover.jpg)## A business with a difference
 
 We acknowledge and understand the vast difference in the Economic capabilities of the two countries that we operate in (The Gambia and The United Kingdom).
 
