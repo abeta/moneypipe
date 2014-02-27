@@ -5,7 +5,7 @@ slug: about
 sitemap: 
   priority: 0.7
   changefreq: monthly
-  lastmod: {}
+  lastmod: 2013-11-09T7:30:00
 published: true
 ---
 
@@ -17,7 +17,7 @@ An equally dedicated team based in Banjul takes care of services in The Gambia.
 
 The relatively small teams dealing with you as a customer allow us to communicate and serve you in a hassle-free, relaxed and personal level but with the professionalism you would expect from the best in the business.
 
-![](//blics-new-cover.jpg)## A business with a difference
+## A business with a difference
 
 We acknowledge and understand the vast difference in the Economic capabilities of the two countries that we operate in (The Gambia and The United Kingdom).
 
