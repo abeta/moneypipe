@@ -5,12 +5,14 @@ layout: default
   <div class="col-md-3">
     <ul class="nav sidebar">
 	  <li{% if page.category == "shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}shipping.html">Shipping</a>
+	    {% if page.category == "shipping" %}
         <ul class="nav">
 		  <li{% if page.slug == "door-to-door-shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}door-to-door-shipping.html">Door to door Shipping</a></li>
 		  <li{% if page.slug == "air-freight" %} class="active"{% endif %}><a href="{{ site.baseurl }}air-freight.html">Air Freight</a></li>
 		  <li{% if page.slug == "car-shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}car-shipping.html">Car Shipping</a></li>
 		  <li{% if page.slug == "container-shipping" %} class="active"{% endif %}><a href="{{ site.baseurl }}container-shipping.html">Container Shipping</a></li>
 		</ul>
+		{% endif %}
 	  </li>
 	  <li{% if page.slug == "money-transfer" %} class="active"{% endif %}><a href="{{ site.baseurl }}money-transfer.html">Money Transfer</a></li>
 	  <li{% if page.slug == "storage" %} class="active"{% endif %}><a href="{{ site.baseurl }}storage.html">Storage</a></li>
