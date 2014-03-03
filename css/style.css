@@ -67,10 +67,10 @@ ul.navbar-big {
 	border-radius: 8px 8px 0 0;
 	-moz-border-radius: 8px 8px 0 0;
 	-webkit-border-radius: 8px 8px 0 0;
-	background-color: #3f9;
-	background-image: -webkit-linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
-	background-image: -moz-linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
-	background-image: -ms-linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
+	background-color: #093;
+	background-image: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.3));
+	background-image: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.3));
+	background-image: -ms-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.3));
 }
 .page {
 	padding:20px;
@@ -115,16 +115,23 @@ footer a:hover {
 	font-size:9px;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height:15px;
-	background-color: #3f9;
+	background-color: #093;
 	background-image: -webkit-linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
 	background-image: -moz-linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
 	background-image: -ms-linear-gradient(top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
 }
 .sidebar .nav {
-	border-left: 3px solid #3f9;
+	border-left: 3px solid #093;
+}
+.sidebar a {
+	color:#333;
 }
 .sidebar>li>a {
 	padding:8px 12px;
+}
+.sidebar>li.active>a{
+	background-color: #093;
+	color: #fff;
 }
 .sidebar>li>.nav>li>a {
 	font-size:12px;
