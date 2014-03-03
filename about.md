@@ -2,11 +2,13 @@
 layout: page
 title: About Us
 slug: about
-sitemap:
-    priority: 0.7
-    changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+sitemap: 
+  priority: 0.7
+  changefreq: monthly
+  lastmod: 2013-11-09T7:30:00
+published: true
 ---
+
 Money Pipe is registered in England as a limited liability company.  Incorporated in 2009, we are relatively new but committed to grow and in the process give our customers a fantastic service that they will struggle to find elsewhere.
 
 A small dedicated team based in Brighton (East Sussex) is responsible for all our UK operations.
