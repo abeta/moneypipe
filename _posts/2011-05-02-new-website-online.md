@@ -5,7 +5,7 @@ categories:
 - Blog
 - Announcements
 image: "/images/blog/abemedia-logo.jpg"
-published: true
+published: false
 ---
 
 We have finally launched our new site with a fresh website design. 
