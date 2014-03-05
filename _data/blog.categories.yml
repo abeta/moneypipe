@@ -1,3 +1,13 @@
-- aa
-- bb
-- cc
+-
+    name: Blog
+    slug: blog
+    _:
+    -
+        name: blog
+        slug: blog
+    -
+        name: blog
+        slug: blog
+    -
+        name: blog
+        slug: blog
