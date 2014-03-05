@@ -1,6 +1,6 @@
 ---
 title: 'Web design for charity AudioActive Youth Music Project'
-slug: web-design-for-charity-audioactive-youth-music-project
 published: '1'
+slug: 'Web design for charity AudioActive Youth Music Project'
 ---
 <p>sadasdasd</p>
