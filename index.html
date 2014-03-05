@@ -59,13 +59,4 @@ sitemap:
 	  <a href="{{site.baseurl}}money-transfer.html" class="btn btn-success btn-sm">Read more</a>
     </div>
   </div>
-</div>{{ site | jsonify }}
-{% for item in site.data %}
-{{ item }} 
-{% for item2 in item %}
-{{ item2 }}
-{% for item3 in item2 %}
-{{ item3 }} 
-{% endfor %} 
-{% endfor %}
-{% endfor %}
+</div>{{ site.data | jsonify }}
