@@ -1,6 +1,6 @@
 ---
 title: asasasasas
-slug: aa
 published: '1'
+slug: asasasasas
 ---
 <p>sadasdasd</p>
