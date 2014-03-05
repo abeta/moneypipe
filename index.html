@@ -60,4 +60,12 @@ sitemap:
     </div>
   </div>
 </div>{{ site | jsonify }}
-{% for item in site.data.blog_categories %}{{ item }} {% endfor %}
+{% for item in site.data %}
+{{ item }} 
+{% for item2 in item %}
+{{ item2 }}
+{% for item3 in item2 %}
+{{ item3 }} 
+{% endfor %} 
+{% endfor %}
+{% endfor %}
