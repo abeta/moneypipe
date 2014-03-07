@@ -1,4 +1,4 @@
 -
     name: Blog
     slug: blog
-    children:[{name: blog, slug: blog},{name: blog, slug: blog}]
+    children: [{name: blog, slug: blog}, {name: blog, slug: blog}]
