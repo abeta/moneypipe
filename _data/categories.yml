@@ -1,1 +1,35 @@
-blog: { title: Blog, slug: blog, published: 1, order: 1, children: [{ title: 'Test 2', slug: test2, order: '0' }, { title: 'test3 2', slug: test3, order: '1' }, { title: 'Test 1', slug: test1, order: '1', children: { test1a: { title: 'Test 1', slug: test1, order: 1 }, test2a: { title: 'Test 2', slug: test2, order: 2 } } }, { title: 'test4 2', slug: test4, order: '2' }, { title: 'test5 2', slug: test5, order: '3' }] }
+blog:
+    title: Blog
+    slug: blog
+    published: 1
+    order: 1
+    children:
+        test5:
+            title: 'test5 2'
+            slug: test5
+            order: 1
+        test1:
+            title: 'Test 1'
+            slug: test1
+            order: 2
+            children:
+                test1a:
+                    title: 'Test 1'
+                    slug: test1
+                    order: 1
+                test2a:
+                    title: 'Test 2'
+                    slug: test2
+                    order: 2
+        test2:
+            title: 'Test 2'
+            slug: test2
+            order: 3
+        test3:
+            title: 'test3 2'
+            slug: test3
+            order: 4
+        test4:
+            title: 'test4 2'
+            slug: test4
+            order: 5
