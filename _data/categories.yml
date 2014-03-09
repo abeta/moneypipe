@@ -2,22 +2,22 @@ blog:
     title: Blog
     slug: blog
     published: 1
-    order:0
+    order: 0
     children: 
         test1: 
             title: Test 1
             slug: test1
-            order:0
+            order: 0
             children: 
                 test1a: 
                     title: Test 1
                     slug: test1
-                    order:0
+                    order: 0
                 test2a: 
                     title: Test 2
                     slug: test2
-                    order:1
+                    order: 1
         test2:
             title: Test 2
             slug: test2
-            order:1
+            order: 1
