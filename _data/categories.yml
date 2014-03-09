@@ -20,7 +20,7 @@ blog:
                 test2a:
                     title: 'Test 2'
                     slug: test2
-                    order: 2
+                    order: 0
         test2:
             title: 'Test 2'
             slug: test2
