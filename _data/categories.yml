@@ -25,11 +25,11 @@ blog:
             slug: test1
             order: 4
             children:
-                test1a:
-                    title: 'Test 1'
-                    slug: test1
-                    order: 0
                 test2a:
                     title: 'Test 2'
                     slug: test2
+                    order: 0
+                test1a:
+                    title: 'Test 1'
+                    slug: test1
                     order: 1
