@@ -7,11 +7,11 @@ blog:
         -
             title: 'test5 2'
             slug: test5
-            order: '1'
+            order: 1
         -
             title: 'Test 1'
             slug: test1
-            order: '2'
+            order: 2
             children:
                 test1a:
                     title: 'Test 1'
@@ -24,12 +24,12 @@ blog:
         -
             title: 'Test 2'
             slug: test2
-            order: '2'
+            order: 3
         -
             title: 'test3 2'
             slug: test3
-            order: '3'
+            order: 4
         -
             title: 'test4 2'
             slug: test4
-            order: '4'
+            order: 5
