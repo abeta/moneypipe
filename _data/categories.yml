@@ -4,20 +4,32 @@ blog:
     published: 1
     order: 0
     children: 
-        test1b: 
-            title: Test 1b
-            slug: test1b
+        test1: 
+            title: Test 1
+            slug: test1
             order: 0
             children: 
                 test1a: 
-                    title: Test 1a
-                    slug: test1a
+                    title: Test 1
+                    slug: test1
                     order: 0
                 test2a: 
-                    title: Test 2a
-                    slug: test2a
+                    title: Test 2
+                    slug: test2
                     order: 1
-        test2b:
-            title: Test 2b
-            slug: test2b
+        test2:
+            title: Test 2
+            slug: test2
+            order: 1
+        test3:
+            title: test3 2
+            slug: test3
+            order: 1
+        test4:
+            title: test4 2
+            slug: test4
+            order: 1
+        test5:
+            title: test5 2
+            slug: test5
             order: 1
