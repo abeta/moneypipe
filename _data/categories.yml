@@ -4,14 +4,18 @@ blog:
     published: 1
     order: 1
     children:
-        klaus:
-            title: 'test5 2'
-            slug: klaus
-            order: 1
-        joe:
+        -
+            title: 'Test 2'
+            slug: peter
+            order: '0'
+        -
+            title: 'test3 2'
+            slug: hannes
+            order: '1'
+        -
             title: 'Test 1'
             slug: joe
-            order: 2
+            order: '1'
             children:
                 test1a:
                     title: 'Test 1'
@@ -21,15 +25,11 @@ blog:
                     title: 'Test 2'
                     slug: test2
                     order: 2
-        peter:
-            title: 'Test 2'
-            slug: peter
-            order: 3
-        hannes:
-            title: 'test3 2'
-            slug: hannes
-            order: 4
-        fritz:
+        -
             title: 'test4 2'
             slug: fritz
-            order: 5
+            order: '2'
+        -
+            title: 'test5 2'
+            slug: klaus
+            order: '3'
