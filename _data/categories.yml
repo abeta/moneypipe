@@ -3,33 +3,4 @@ blog:
     slug: blog
     published: 1
     order: 1
-    children:
-        -
-            title: 'Test 2'
-            slug: peter
-            order: '0'
-        -
-            title: 'test3 2'
-            slug: hannes
-            order: '1'
-        -
-            title: 'Test 1'
-            slug: joe
-            order: '1'
-            children:
-                test1a:
-                    title: 'Test 1'
-                    slug: test1
-                    order: 1
-                test2a:
-                    title: 'Test 2'
-                    slug: test2
-                    order: 2
-        -
-            title: 'test4 2'
-            slug: fritz
-            order: '2'
-        -
-            title: 'test5 2'
-            slug: klaus
-            order: '3'
+    children: [{ title: 'Test 2', slug: peter, order: '0' }, { title: 'test3 2', slug: hannes, order: '1' }, { title: 'Test 1', slug: joe, order: '1', children: { test1a: { title: 'Test 1', slug: test1, order: 1 }, test2a: { title: 'Test 2', slug: test2, order: 2 } } }, { title: 'test4 2', slug: fritz, order: '2' }, { title: 'test5 2', slug: klaus, order: '3' }]
