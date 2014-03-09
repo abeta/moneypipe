@@ -8,10 +8,22 @@ blog:
             title: 'test4 2'
             slug: test4
             order: 0
+        test2:
+            title: 'Test 2'
+            slug: test2
+            order: 1
+        test5:
+            title: 'test5 2'
+            slug: test5
+            order: 2
+        test3:
+            title: 'test3 2'
+            slug: test3
+            order: 3
         test1:
             title: 'Test 1'
             slug: test1
-            order: 1
+            order: 4
             children:
                 test1a:
                     title: 'Test 1'
@@ -21,15 +33,3 @@ blog:
                     title: 'Test 2'
                     slug: test2
                     order: 1
-        test2:
-            title: 'Test 2'
-            slug: test2
-            order: 2
-        test5:
-            title: 'test5 2'
-            slug: test5
-            order: 3
-        test3:
-            title: 'test3 2'
-            slug: test3
-            order: 4
