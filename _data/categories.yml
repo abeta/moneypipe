@@ -4,13 +4,13 @@ blog:
     published: 1
     order: 1
     children:
-        test5:
+        klaus:
             title: 'test5 2'
-            slug: test5
+            slug: klaus
             order: 1
-        test1:
+        joe:
             title: 'Test 1'
-            slug: test1
+            slug: joe
             order: 2
             children:
                 test1a:
@@ -21,15 +21,15 @@ blog:
                     title: 'Test 2'
                     slug: test2
                     order: 2
-        test2:
+        peter:
             title: 'Test 2'
-            slug: test2
+            slug: peter
             order: 3
-        test3:
+        hannes:
             title: 'test3 2'
-            slug: test3
+            slug: hannes
             order: 4
-        test4:
+        fritz:
             title: 'test4 2'
-            slug: test4
+            slug: fritz
             order: 5
