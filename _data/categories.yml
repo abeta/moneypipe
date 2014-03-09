@@ -2,4 +2,17 @@ blog:
     title: Blog
     slug: blog
     published: 1
-    children: [test1: {title: Test 1, slug: test1, children: [test1: {title: Test 1, slug: test1}, test2: {title: Test 2, slug: test2}]}, test2: {title: Test 2, slug: test2}]
+    children: 
+        test1: 
+            title: Test 1
+            slug: test1
+            children: 
+                test1: 
+                    title: Test 1
+                    slug: test1
+                test2: 
+                    title: Test 2
+                    slug: test2
+        test2:
+            title: Test 2
+            slug: test2
