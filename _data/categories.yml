@@ -10,10 +10,6 @@ blog:
         test4:
             title: 'test4 2'
             slug: test4
-            order: '0'
-        test3:
-            title: 'test3 2'
-            slug: test3
             order: '1'
         test2:
             title: 'Test 2'
@@ -23,10 +19,14 @@ blog:
             title: 'test5 2'
             slug: test5
             order: '3'
+        test3:
+            title: 'test3 2'
+            slug: test3
+            order: '4'
         test1:
             title: 'Test 1'
             slug: test1
-            order: '4'
+            order: '5'
             children:
                 test2a:
                     title: 'Test 2'
