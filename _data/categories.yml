@@ -33,4 +33,3 @@ blog:
                     title: 'Test 1'
                     slug: test1
                     order: '2'
-order: '5'
