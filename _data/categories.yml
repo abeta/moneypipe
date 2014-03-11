@@ -9,13 +9,13 @@ blog:
             slug: test1
             order: 1
             children:
-                test2a:
-                    title: 'Test 2'
-                    slug: test2
-                    order: 1
                 test1a:
                     title: 'Test 1'
                     slug: test1
+                    order: 1
+                test2a:
+                    title: 'Test 2'
+                    slug: test2
                     order: 2
         test3:
             title: 'test3 2'
