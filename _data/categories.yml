@@ -1,7 +1,7 @@
 blog:
     title: Blog
     slug: blog
-    published: 1
+    published: 0
     order: '1'
     children:
         test1:
