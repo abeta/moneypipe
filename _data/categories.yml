@@ -32,3 +32,4 @@ blog:
             title: 'Test 2'
             slug: test2
             order: 4
+            published: 1
