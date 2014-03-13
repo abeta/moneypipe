@@ -6,7 +6,8 @@ blog:
         test2:
             title: 'Test 2'
             slug: test2
-            order: 0
+            description: "Hello\r\nRasta"
+            category: blog
             published: 1
         test1:
             title: 'Test 1'
