@@ -19,7 +19,9 @@ blog:
                     title: 'Test 2'
                     slug: test2
                     order: 2
+                    published: 1
         test2:
             title: 'Test 2'
             slug: test2
             order: 4
+            published: 1
