@@ -3,6 +3,11 @@ blog:
     slug: blog
     order: '1'
     children:
+        test2:
+            title: 'Test 2'
+            slug: test2
+            order: 0
+            published: 1
         test1:
             title: 'Test 1'
             slug: test1
@@ -18,10 +23,5 @@ blog:
                     slug: test2
                     order: 2
                     published: 1
-            published: 1
-        test2:
-            title: 'Test 2'
-            slug: test2
-            order: 4
             published: 1
     published: 1
