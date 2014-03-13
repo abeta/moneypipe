@@ -14,7 +14,7 @@ blog:
                     title: 'Test 1'
                     slug: test1
                     order: 1
-                    published: 0
+                    published: 1
                 test2a:
                     title: 'Test 2'
                     slug: test2
