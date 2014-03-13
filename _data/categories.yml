@@ -29,33 +29,3 @@ blog:
                             slug: testa
                             category: blog
                             published: 1
-blog-copy:
-    title: 'Blog 2'
-    slug: blog
-    published: 1
-    children:
-        test1:
-            title: 'Test 1'
-            slug: test1
-            order: 1
-            published: 1
-        testa:
-            title: 'Test A'
-            slug: testa
-            published: 1
-            children:
-                blog1:
-                    title: Blog1
-                    slug: blog1
-                    published: 1
-                    children:
-                        test1:
-                            title: 'Test 1'
-                            slug: test1
-                            order: 1
-                            published: 1
-                        testa:
-                            title: 'Test A'
-                            slug: testa
-                            category: blog
-                            published: 1
