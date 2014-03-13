@@ -29,3 +29,7 @@ blog:
                             slug: testa
                             category: blog
                             published: 1
+        test12:
+            title: Test1
+            slug: test12
+            published: 1
