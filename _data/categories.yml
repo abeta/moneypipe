@@ -7,18 +7,10 @@ blog:
             title: 'Test 1'
             slug: test1
             order: 1
-            children:
-                test1a:
-                    title: 'Test 1'
-                    slug: test1
-                    order: 1
-                    published: 1
-                    children:
-                        test2:
-                            title: 'Test 2'
-                            slug: test2
-                            description: '<h1>Hello Rasta</h1>'
-                            category: blog.test1.test1a
-                            published: 1
+            published: 1
+        testa:
+            title: 'Test A'
+            slug: testa
+            category: blog
             published: 1
     published: 1
