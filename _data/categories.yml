@@ -3,14 +3,14 @@ blog:
     slug: blog
     order: 1
     children:
+        test1:
+            title: 'Test 1'
+            slug: test1
+            order: 3
         test12:
             title: Test1
             slug: test12
             published: 1
-            order: 3
-        test1:
-            title: 'Test 1'
-            slug: test1
             order: 4
         test-a:
             title: 'Test A'
