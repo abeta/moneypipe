@@ -26,5 +26,6 @@ blog:
                     slug: test2
                     category: blog.test2
                     published: 1
+                    order: 1
             order: 2
     published: 1
