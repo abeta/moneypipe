@@ -12,11 +12,16 @@ blog:
                     title: 'Test 1'
                     slug: test1
                     order: 1
+                    published: 1
                 test2a:
                     title: 'Test 2'
                     slug: test2
                     order: 2
+                    published: 1
+            published: 1
         test2:
             title: 'Test 2'
             slug: test2
             order: 4
+            published: 1
+    published: 1
