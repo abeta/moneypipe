@@ -6,15 +6,15 @@ blog:
         test12:
             title: Test1
             slug: test12
-            order: -2
-        test1:
-            title: 'Test 1'
-            slug: test1
-            order: -1
+            order: 2
         test-a:
             title: 'Test A'
             slug: test-a
-            order: 0
+            order: 3
+        test1:
+            title: 'Test 1'
+            slug: test1
+            order: 3
         testa:
             title: 'Test A'
             slug: testa
@@ -27,4 +27,4 @@ blog:
                             title: 'Test 1'
                             slug: test1
                             order: 1
-            order: 1
+            order: 4
