@@ -19,11 +19,6 @@ blog:
                     title: 'Test 2'
                     slug: test2
                     order: 2
-                    children:
-                        test52:
-                            title: 'test5 2'
-                            slug: test52
-                            published: 1
         test2:
             title: 'Test 2'
             slug: test2
