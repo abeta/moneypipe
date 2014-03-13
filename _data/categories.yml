@@ -13,17 +13,8 @@ blog:
                     title: 'Test 1'
                     slug: test1
                     order: 1
-                test2a:
+                test2:
                     title: 'Test 2'
                     slug: test2
-                    order: 2
-                    children:
-                        test52:
-                            title: 'test5 2'
-                            slug: test52
-                            category: blog.test1.test2a
-                            published: 1
-                            children:
-                                test2: { title: 'Test 2', slug: test2, description: hallo, category: blog.test1.test2a.test52, published: 1 }
-                                test4: { title: 'test4 2', slug: test4, category: blog.test1.test2a.test52, published: 1 }
+                    category: blog.test1
             published: true
