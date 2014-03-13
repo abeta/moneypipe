@@ -7,6 +7,12 @@ blog:
             title: Test1
             slug: test12
             published: 1
+            order: 0
+        test-a:
+            title: 'Test A'
+            slug: test-a
+            order: 1
+            published: 1
         testa:
             title: 'Test A'
             slug: testa
@@ -20,12 +26,7 @@ blog:
                             slug: test1
                             order: 1
             order: 1
-        test-a:
-            title: 'Test A'
-            slug: test-a
-            order: 2
-            published: 1
         test1:
             title: 'Test 1'
             slug: test1
-            order: 3
+            order: 2
