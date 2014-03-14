@@ -2,21 +2,6 @@ blog:
     title: Blog
     slug: blog
     children:
-        test-a:
-            title: 'Test A'
-            slug: test-a
-            order: 1
-            published: 1
-            children:
-                blog1:
-                    title: Blog1
-                    slug: blog1
-                    published: 1
-                    children:
-                        test1:
-                            title: 'Test 1'
-                            slug: test1
-                            order: 1
         test12:
             title: Test1
             slug: test12
@@ -31,3 +16,17 @@ blog:
             title: 'Test A'
             slug: testa
             order: 4
+        test-a1:
+            title: 'Test A'
+            slug: test-a1
+            published: 1
+            children:
+                blog1:
+                    title: Blog1
+                    slug: blog1
+                    published: 1
+                    children:
+                        test1:
+                            title: 'Test 1'
+                            slug: test1
+                            order: 1
