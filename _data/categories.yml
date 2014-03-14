@@ -16,20 +16,19 @@ blog:
         testa:
             title: 'Test A'
             slug: testa
-            children:
-                blog1:
-                    title: Blog1
-                    slug: blog1
-                    children:
-                        test1:
-                            title: 'Test 1'
-                            slug: test1
-                            order: 1
-                    order: 1
-                    published: 1
             order: 3
         test-a:
             title: 'Test A'
             slug: test-a
             order: 4
             published: 1
+            children:
+                blog1:
+                    title: Blog1
+                    slug: blog1
+                    published: 1
+                    children:
+                        test1:
+                            title: 'Test 1'
+                            slug: test1
+                            order: 1
