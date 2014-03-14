@@ -1,7 +1,6 @@
 blog:
     title: Blog
     slug: blog
-    order: 1
     children:
         test-a:
             title: 'Test A'
