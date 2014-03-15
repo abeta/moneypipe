@@ -8,9 +8,6 @@ analytics:
 comments:
     provider: disqus
     disqus_shortname: moneypipe
-    num_posts: 10
-    colorscheme: light
-    order: social
 sharing:
     provider:
         - facebook
