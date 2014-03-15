@@ -2,6 +2,8 @@ title: Moneypipe
 description: Test
 permalink: none
 timezone: Europe/London
+analytics:
+    provider: google_analytics
 comments:
     provider: disqus
     disqus_shortname: moneypipe
@@ -13,3 +15,6 @@ sharing:
         - facebook
         - twitter
         - google
+        - linkedin
+        - pinterest
+        - stumbleupon
