@@ -3,6 +3,8 @@ description: Test
 permalink: none
 timezone: Europe/London
 comments:
+    provider: disqus
+    disqus_shortname: moneypipe
     num_posts: 10
     colorscheme: light
     order: social
