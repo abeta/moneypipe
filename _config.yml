@@ -2,6 +2,7 @@ title: Moneypipe
 description: Test
 permalink: none
 timezone: Europe/London
+baseurl: /
 analytics:
     provider: google_analytics
 comments:
