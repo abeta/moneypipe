@@ -8,3 +8,8 @@ comments:
     num_posts: 10
     colorscheme: light
     order: social
+sharing:
+    provider:
+        - facebook
+        - twitter
+        - google
