@@ -2,6 +2,7 @@ main:
     title: 'Main Menu'
     slug: main
     published: 1
+    type: root
     children:
         home:
             title: Home
@@ -36,6 +37,7 @@ services:
     title: 'Services Menu'
     slug: services
     published: 1
+    type: root
     children:
         shipping:
             title: Shipping
