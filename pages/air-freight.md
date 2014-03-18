@@ -1,12 +1,13 @@
 ---
 layout: service
-title: Air Freight
+title: 'Air Freight'
 slug: air-freight
 category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+    lastmod: 1383982200
+published: true
 ---
 We provide a very efficient Air Freight service between the UK and The Gambia (contact us for other destinations).
 
