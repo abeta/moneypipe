@@ -5,7 +5,8 @@ slug: storage
 sitemap:
     priority: 0.7
     changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+    lastmod: 1383982200
+published: true
 ---
 Whether you are moving or just need extra space for a day or a year, we have a number of warehouses scattered around the South East of England that can cater for just that.
 
