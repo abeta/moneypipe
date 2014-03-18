@@ -2,6 +2,7 @@
 layout: default
 title: 'Privacy Policy'
 published: true
+order: '5'
 ---
 # Privacy Policy
 
