@@ -31,6 +31,7 @@ main:
             published: 1
             order: 4
             type: page
+services:
     title: 'Services Menu'
     slug: services
     published: 1
