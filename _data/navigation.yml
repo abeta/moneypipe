@@ -10,13 +10,16 @@ main:
             published: 1
         about:
             title: About
+            slug: about
             url: about
             published: 1
         testimonials:
             title: Testimonials
+            slug: testimonials
             url: testimonials
             published: 1
         contact:
             title: Contact
+            slug: contact
             url: contact
             published: 1
