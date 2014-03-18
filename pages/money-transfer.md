@@ -1,11 +1,12 @@
 ---
 layout: service
-title: Money Transfer
+title: 'Money Transfer'
 slug: money-transfer
 sitemap:
     priority: 0.7
     changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+    lastmod: 1383982200
+published: true
 ---
 Money Pipe Ltd is NOT registered as a Cash Remittance Business, and as such, we do not handle any money transfer transactions.
 
