@@ -15,15 +15,15 @@ main:
             url: about
             published: 1
             order: 2
-        contact:
-            title: Contact
-            slug: contact
-            url: contact
-            published: 1
-            order: 3
         testimonials:
             title: Testimonials
             slug: testimonials
             url: testimonials
+            published: 1
+            order: 3
+        contact:
+            title: Contact
+            slug: contact
+            url: contact
             published: 1
             order: 4
