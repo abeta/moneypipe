@@ -8,7 +8,7 @@ sitemap:
     changefreq: monthly
     lastmod: 1383982200
 published: true
-order: '2'
+order: '6'
 ---
 ## Door to Port Service
 
