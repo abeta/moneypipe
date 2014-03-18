@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Privacy Policy
+title: 'Privacy Policy'
+published: true
 ---
 # Privacy Policy
 
