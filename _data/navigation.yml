@@ -3,17 +3,10 @@ main:
     slug: main
     published: 1
     children:
-        home:
-            title: Home
-            slug: home
-            url: /
-            published: 1
-            order: 0
-            type: page
-        about:
-            title: About
-            slug: about
-            url: about
+        contact:
+            title: Contact
+            slug: contact
+            url: contact
             published: 1
             order: 0
             type: page
@@ -24,10 +17,17 @@ main:
             published: 1
             order: 0
             type: page
-        contact:
-            title: Contact
-            slug: contact
-            url: contact
+        about:
+            title: About
+            slug: about
+            url: about
+            published: 1
+            order: 0
+            type: page
+        home:
+            title: Home
+            slug: home
+            url: /
             published: 1
             order: 0
             type: page
@@ -37,10 +37,10 @@ services:
     slug: services
     published: 1
     children:
-        storage:
-            title: Storage
-            slug: storage
-            url: storage
+        shipping:
+            title: Shipping
+            slug: shipping
+            url: shipping
             published: 1
             order: 0
             type: page
@@ -51,10 +51,10 @@ services:
             published: 1
             order: 0
             type: page
-        shipping:
-            title: Shipping
-            slug: shipping
-            url: shipping
+        storage:
+            title: Storage
+            slug: storage
+            url: storage
             published: 1
             order: 0
             type: page
