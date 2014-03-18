@@ -8,6 +8,7 @@ sitemap:
     changefreq: monthly
     lastmod: 1383982200
 published: true
+order: '8'
 ---
 We provide a very efficient Air Freight service between the UK and The Gambia (contact us for other destinations).
 
