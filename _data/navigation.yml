@@ -3,22 +3,20 @@ main:
     slug: main
     published: 1
     children:
-        about:
-            title: About
-            url: /about
-            published: 1
-        testimonials:
-            title: Testimonials
-            url: /testimonials
-            published: 1
-        contact:
-            title: Contact
-            url: /contact
-            published: 1
         home:
             title: Home
             slug: home
             url: /
             published: 1
-            order: 1
-    order: 1
+        about:
+            title: About
+            url: about
+            published: 1
+        testimonials:
+            title: Testimonials
+            url: testimonials
+            published: 1
+        contact:
+            title: Contact
+            url: contact
+            published: 1
