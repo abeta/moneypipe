@@ -6,12 +6,6 @@ blog:
             title: 'Test A'
             slug: testa
             order: 1
-            children:
-                test12:
-                    title: 'Test A - 1'
-                    slug: test12
-                    order: 1
-                    published: 1
             published: 1
         test1:
             title: 'Test 1'
