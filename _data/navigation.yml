@@ -1,13 +1,22 @@
 main:
-    home:
-        name: Home
-        url: /
-    about:
-        name: About
-        url: /about
-    testimonials:
-        name: Testimonials
-        url: /testimonials
-    contact:
-        name: Contact
-        url: /contact
+    title: Main Menu
+    slug: main
+    published: 1
+    children:
+        home:
+            title: Home
+            slug: home
+            url: /
+            published: 1
+        about:
+            title: About
+            url: /about
+            published: 1
+        testimonials:
+            title: Testimonials
+            url: /testimonials
+            published: 1
+        contact:
+            title: Contact
+            url: /contact
+            published: 1
