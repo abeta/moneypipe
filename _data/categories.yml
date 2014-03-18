@@ -10,11 +10,8 @@ blog:
                 test12:
                     title: 'Test A - 1'
                     slug: test12
-                    published: 1
                     order: 1
         test1:
             title: 'Test 1'
             slug: test1
             order: 2
-            published: 1
-    published: 1
