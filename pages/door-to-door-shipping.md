@@ -8,7 +8,7 @@ sitemap:
     changefreq: monthly
     lastmod: 1383982200
 published: true
-order: '3'
+order: '5'
 ---
 We are aware of how stressful, time consuming and costly it can be to ship personal effects, gifts to friends, family or for charity, goods for business or pleasure. Money Pipe Ltd. was set up to cater for this; to use our expertise and resources to ship any items between the United Kingdom and The Gambia, based on the **Pay once principle**.
 
