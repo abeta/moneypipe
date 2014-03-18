@@ -11,7 +11,7 @@ order: '0'
 parents:
     - a
     - b
-permalink: 123/123.html
+permalink: :parents/123.html
 ---
 Money Pipe is registered in England as a limited liability company.  Incorporated in 2009, we are relatively new but committed to grow and in the process give our customers a fantastic service that they will struggle to find elsewhere.
 
