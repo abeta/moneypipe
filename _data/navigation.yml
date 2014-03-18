@@ -10,6 +10,13 @@ main:
             published: 1
             type: page
             order: 0
+        testimonials:
+            title: Testimonials
+            slug: testimonials
+            url: testimonials
+            published: 1
+            type: page
+            order: 1
         contact:
             title: Contact
             slug: contact
@@ -21,13 +28,6 @@ main:
             title: About
             slug: about
             url: about
-            published: 1
-            type: page
-            order: 1
-        testimonials:
-            title: Testimonials
-            slug: testimonials
-            url: testimonials
             published: 1
             type: page
             order: 1
@@ -44,17 +44,17 @@ services:
             type: page
             published: 1
             order: -1
-        money-transfer:
-            title: 'Money Transfer'
-            slug: money-transfer
-            url: money-transfer
-            published: 1
-            type: page
-            order: -1
         storage:
             title: Storage
             slug: storage
             url: storage
+            published: 1
+            type: page
+            order: 0
+        money-transfer:
+            title: 'Money Transfer'
+            slug: money-transfer
+            url: money-transfer
             published: 1
             type: page
             order: 0
