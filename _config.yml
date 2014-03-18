@@ -3,6 +3,7 @@ description: Test
 permalink: none
 timezone: Europe/London
 baseurl: /moneypipe/
+relative_permalinks: false
 analytics:
     provider: google_analytics
 comments:
