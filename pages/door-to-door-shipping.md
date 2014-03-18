@@ -1,12 +1,13 @@
 ---
 layout: service
-title: Hassle free shipping to The Gambia
+title: 'Hassle free shipping to The Gambia'
 slug: car-shipping
 category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+    lastmod: 1383982200
+published: true
 ---
 We are aware of how stressful, time consuming and costly it can be to ship personal effects, gifts to friends, family or for charity, goods for business or pleasure. Money Pipe Ltd. was set up to cater for this; to use our expertise and resources to ship any items between the United Kingdom and The Gambia, based on the **Pay once principle**.
 
