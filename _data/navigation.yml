@@ -49,13 +49,13 @@ services:
             slug: money-transfer
             url: money-transfer
             published: 1
-            order: 1
+            order: 2
             type: page
         storage:
             title: Storage
             slug: storage
             url: storage
             published: 1
-            order: 1
+            order: 3
             type: page
     order: 1
