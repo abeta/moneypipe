@@ -3,17 +3,10 @@ main:
     slug: main
     published: 1
     children:
-        contact:
-            title: Contact
-            slug: contact
-            url: contact
-            published: 1
-            type: page
-            order: 0
-        testimonials:
-            title: Testimonials
-            slug: testimonials
-            url: testimonials
+        home:
+            title: Home
+            slug: home
+            url: /
             published: 1
             type: page
             order: 0
@@ -23,26 +16,33 @@ main:
             url: about
             published: 1
             type: page
-            order: 0
-        home:
-            title: Home
-            slug: home
-            url: /
+            order: 1
+        testimonials:
+            title: Testimonials
+            slug: testimonials
+            url: testimonials
             published: 1
             type: page
-            order: 0
+            order: 1
+        contact:
+            title: Contact
+            slug: contact
+            url: contact
+            published: 1
+            type: page
+            order: 1
     order: 0
 services:
     title: 'Services Menu'
     slug: services
     published: 1
     children:
-        shipping:
-            title: Shipping
-            slug: shipping
-            url: shipping
-            type: page
+        storage:
+            title: Storage
+            slug: storage
+            url: storage
             published: 1
+            type: page
             order: 0
         money-transfer:
             title: 'Money Transfer'
@@ -51,11 +51,11 @@ services:
             published: 1
             type: page
             order: 0
-        storage:
-            title: Storage
-            slug: storage
-            url: storage
-            published: 1
+        shipping:
+            title: Shipping
+            slug: shipping
+            url: shipping
             type: page
+            published: 1
             order: 0
     order: 0
