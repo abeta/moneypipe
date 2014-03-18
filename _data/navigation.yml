@@ -49,7 +49,7 @@ services:
             slug: money-transfer
             url: money-transfer
             published: 1
-            order: 2
+            order: 1
             type: page
         storage:
             title: Storage
