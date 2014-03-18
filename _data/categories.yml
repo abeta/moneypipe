@@ -16,3 +16,4 @@ blog:
                     title: 'Test A - 1'
                     slug: test12
                     published: 1
+                    order: 1
