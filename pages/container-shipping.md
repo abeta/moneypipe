@@ -1,12 +1,13 @@
 ---
 layout: service
-title: Container Shipping
+title: 'Container Shipping'
 slug: container-shipping
 category: shipping
 sitemap:
     priority: 0.7
     changefreq: monthly
-    lastmod: 2013-11-09T7:30:00
+    lastmod: 1383982200
+published: true
 ---
 ## Door to Port Service
 
