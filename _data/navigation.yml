@@ -49,3 +49,4 @@ services:
             slug: shipping
             url: shipping
             type: page
+            published: 1
