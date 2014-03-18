@@ -13,3 +13,5 @@ blog:
             order: 2
             published: 1
     published: 1
+testa:
+    slug: testa
