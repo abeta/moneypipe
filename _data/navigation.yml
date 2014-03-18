@@ -37,10 +37,10 @@ services:
     slug: services
     published: 1
     children:
-        shipping:
-            title: Shipping
-            slug: shipping
-            url: shipping
+        storage:
+            title: Storage
+            slug: storage
+            url: storage
             published: 1
             order: 1
             type: page
@@ -51,10 +51,10 @@ services:
             published: 1
             order: 1
             type: page
-        storage:
-            title: Storage
-            slug: storage
-            url: storage
+        shipping:
+            title: Shipping
+            slug: shipping
+            url: shipping
             published: 1
             order: 1
             type: page
