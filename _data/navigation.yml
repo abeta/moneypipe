@@ -3,16 +3,10 @@ main:
     slug: main
     published: 1
     children:
-        home:
-            title: Home
-            slug: home
-            url: /
-            published: 1
-            type: page
-        about:
-            title: About
-            slug: about
-            url: about
+        contact:
+            title: Contact
+            slug: contact
+            url: contact
             published: 1
             type: page
         testimonials:
@@ -21,10 +15,16 @@ main:
             url: testimonials
             published: 1
             type: page
-        contact:
-            title: Contact
-            slug: contact
-            url: contact
+        about:
+            title: About
+            slug: about
+            url: about
+            published: 1
+            type: page
+        home:
+            title: Home
+            slug: home
+            url: /
             published: 1
             type: page
 services:
@@ -32,21 +32,24 @@ services:
     slug: services
     published: 1
     children:
-        storage:
-            title: Storage
-            slug: storage
-            url: storage
-            published: 1
-            type: page
-        money-transfer:
-            title: 'Money Transfer'
-            slug: money-transfer
-            url: money-transfer
-            published: 1
-            type: page
         shipping:
             title: Shipping
             slug: shipping
             url: shipping
             type: page
             published: 1
+            order: 0
+        money-transfer:
+            title: 'Money Transfer'
+            slug: money-transfer
+            url: money-transfer
+            published: 1
+            type: page
+            order: 0
+        storage:
+            title: Storage
+            slug: storage
+            url: storage
+            published: 1
+            type: page
+            order: 0
