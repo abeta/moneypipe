@@ -37,25 +37,25 @@ services:
     slug: services
     published: 1
     children:
-        shipping:
-            title: Shipping
-            slug: shipping
-            url: shipping
+        storage:
+            title: Storage
+            slug: storage
+            url: storage
             published: 1
-            order: 1
+            order: 0
             type: page
         money-transfer:
             title: 'Money Transfer'
             slug: money-transfer
             url: money-transfer
             published: 1
-            order: 1
+            order: 0
             type: page
-        storage:
-            title: Storage
-            slug: storage
-            url: storage
+        shipping:
+            title: Shipping
+            slug: shipping
+            url: shipping
             published: 1
-            order: 3
+            order: 0
             type: page
-    order: 1
+    order: 0
