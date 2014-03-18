@@ -10,6 +10,13 @@ main:
             published: 1
             type: page
             order: 0
+        contact:
+            title: Contact
+            slug: contact
+            url: contact
+            published: 1
+            type: page
+            order: 1
         about:
             title: About
             slug: about
@@ -24,38 +31,31 @@ main:
             published: 1
             type: page
             order: 1
-        contact:
-            title: Contact
-            slug: contact
-            url: contact
-            published: 1
-            type: page
-            order: 1
     order: 0
 services:
     title: 'Services Menu'
     slug: services
     published: 1
     children:
-        storage:
-            title: Storage
-            slug: storage
-            url: storage
-            published: 1
-            type: page
-            order: 0
-        money-transfer:
-            title: 'Money Transfer'
-            slug: money-transfer
-            url: money-transfer
-            published: 1
-            type: page
-            order: 0
         shipping:
             title: Shipping
             slug: shipping
             url: shipping
             type: page
             published: 1
+            order: -1
+        money-transfer:
+            title: 'Money Transfer'
+            slug: money-transfer
+            url: money-transfer
+            published: 1
+            type: page
+            order: -1
+        storage:
+            title: Storage
+            slug: storage
+            url: storage
+            published: 1
+            type: page
             order: 0
     order: 0
