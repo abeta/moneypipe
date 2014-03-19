@@ -16,7 +16,7 @@ services:
     title: Services
     slug: services
     published: 1
-    type: root
+    type: folder
     children:
         shipping:
             title: Shipping
