@@ -3,7 +3,7 @@ home:
     slug: home
     url: /
     published: 1
-    type: page
+    type: home
     order: 0
 about:
     title: About
@@ -75,5 +75,5 @@ contact:
     slug: contact
     url: contact
     published: 1
-    type: page
+    type: form
     order: 2
