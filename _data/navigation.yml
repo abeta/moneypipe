@@ -1,37 +1,31 @@
-main:
-    title: 'Main Menu'
-    slug: main
+home:
+    title: Home
+    slug: home
+    url: /
     published: 1
-    type: root
-    children:
-        home:
-            title: Home
-            slug: home
-            url: /
-            published: 1
-            type: page
-            order: 0
-        about:
-            title: About
-            slug: about
-            url: about
-            published: 1
-            type: page
-            order: 1
-        contact:
-            title: Contact
-            slug: contact
-            url: contact
-            published: 1
-            type: page
-            order: 2
-        testimonials:
-            title: Testimonials
-            slug: testimonials
-            url: testimonials
-            published: 1
-            type: page
-            order: 2
+    type: page
+    order: 0
+about:
+    title: About
+    slug: about
+    url: about
+    published: 1
+    type: page
+    order: 1
+contact:
+    title: Contact
+    slug: contact
+    url: contact
+    published: 1
+    type: page
+    order: 2
+testimonials:
+    title: Testimonials
+    slug: testimonials
+    url: testimonials
+    published: 1
+    type: page
+    order: 2
     order: 0
 services:
     title: 'Services Menu'
