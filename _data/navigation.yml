@@ -27,7 +27,7 @@ services:
             order: 5
             children:
                 door-to-door-shipping:
-                    title: Door to door Dhipping
+                    title: Door to door Shipping
                     slug: door-to-door-shipping
                     url: door-to-door-shipping
                     type: page
