@@ -13,7 +13,7 @@ about:
     type: page
     order: 1
 services:
-    title: 'Services Menu'
+    title: Services
     slug: services
     published: 1
     type: root
