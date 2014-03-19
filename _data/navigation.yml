@@ -12,21 +12,6 @@ about:
     published: 1
     type: page
     order: 1
-contact:
-    title: Contact
-    slug: contact
-    url: contact
-    published: 1
-    type: page
-    order: 2
-testimonials:
-    title: Testimonials
-    slug: testimonials
-    url: testimonials
-    published: 1
-    type: page
-    order: 2
-    order: 0
 services:
     title: 'Services Menu'
     slug: services
@@ -55,3 +40,18 @@ services:
             type: page
             order: 8
     order: 0
+testimonials:
+    title: Testimonials
+    slug: testimonials
+    url: testimonials
+    published: 1
+    type: page
+    order: 2
+    order: 0
+contact:
+    title: Contact
+    slug: contact
+    url: contact
+    published: 1
+    type: page
+    order: 2
