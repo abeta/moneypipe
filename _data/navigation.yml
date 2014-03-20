@@ -20,7 +20,7 @@ services:
         money-transfer:
             title: 'Money Transfer'
             slug: money-transfer
-            url: money-transfer
+            url: services/money-transfer.html
             published: 1
             type: page
             order: 7
