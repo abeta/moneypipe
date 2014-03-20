@@ -20,8 +20,39 @@ services:
         shipping:
             title: Shipping
             slug: shipping
-            url: services/shipping.html
+            url: testimonials/shipping.html
+            type: page
             published: 1
+            order: 5
+            children:
+                door-to-door-shipping:
+                    title: 'Door to door Shipping'
+                    slug: door-to-door-shipping
+                    url: door-to-door-shipping
+                    type: page
+                    published: 1
+                    order: 5
+                air-freight:
+                    title: 'Air Freight'
+                    slug: air-freight
+                    url: air-freight
+                    published: 1
+                    type: page
+                    order: 7
+                car-shipping:
+                    title: 'Car Shipping'
+                    slug: car-shipping
+                    url: car-shipping
+                    published: 1
+                    type: page
+                    order: 8
+                container-shipping:
+                    title: 'Container Shipping'
+                    slug: container-shipping
+                    url: container-shipping
+                    published: 1
+                    type: page
+                    order: 8
         money-transfer:
             title: 'Money Transfer'
             slug: money-transfer
@@ -42,6 +73,7 @@ testimonials:
     url: testimonials
     published: 1
     type: page
+    children:
 contact:
     title: Contact
     slug: contact
