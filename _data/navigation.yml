@@ -12,16 +12,11 @@ about:
     published: 1
     type: page
     order: 1
-services:
-    title: Services
-    slug: services
-    published: 1
-    type: directory
     children:
         shipping:
             title: Shipping
             slug: shipping
-            url: services/shipping.html
+            url: about/shipping.html
             type: page
             published: 1
             order: 5
@@ -54,6 +49,12 @@ services:
                     published: 1
                     type: page
                     order: 8
+services:
+    title: Services
+    slug: services
+    published: 1
+    type: directory
+    children:
         money-transfer:
             title: 'Money Transfer'
             slug: money-transfer
