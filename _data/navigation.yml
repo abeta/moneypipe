@@ -19,11 +19,11 @@ services:
     type: directory
     children:
         shipping:
-            title: Shipping
+            title: Shipping1
             slug: shipping
-            url: shipping
+            url: services/shipping.html
             type: page
-            published: 1
+            published: 0
             order: 5
             children:
                 door-to-door-shipping:
