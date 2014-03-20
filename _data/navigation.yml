@@ -65,7 +65,7 @@ services:
             title: Storage
             slug: storage
             url: services/storage.html
-            published: 0
+            published: 1
             type: page
             order: 8
     order: 0
