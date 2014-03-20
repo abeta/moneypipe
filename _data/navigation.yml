@@ -12,11 +12,31 @@ about:
     published: 1
     type: page
     order: 1
+    children: {  }
+services:
+    title: Services
+    slug: services
+    published: 1
+    type: directory
     children:
+        money-transfer:
+            title: 'Money Transfer'
+            slug: money-transfer
+            url: money-transfer
+            published: 1
+            type: page
+            order: 7
+        storage:
+            title: Storage
+            slug: storage
+            url: services/storage.html
+            published: 1
+            type: page
+            order: 8
         shipping:
             title: Shipping
             slug: shipping
-            url: about/shipping.html
+            url: services/shipping.html
             type: page
             published: 1
             order: 5
@@ -49,26 +69,6 @@ about:
                     published: 1
                     type: page
                     order: 8
-services:
-    title: Services
-    slug: services
-    published: 1
-    type: directory
-    children:
-        money-transfer:
-            title: 'Money Transfer'
-            slug: money-transfer
-            url: money-transfer
-            published: 1
-            type: page
-            order: 7
-        storage:
-            title: Storage
-            slug: storage
-            url: services/storage.html
-            published: 1
-            type: page
-            order: 8
     order: 0
 testimonials:
     title: Testimonials
