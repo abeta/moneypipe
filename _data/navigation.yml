@@ -11,18 +11,48 @@ about:
     published: 1
     type: page
     order: 1
-    children:
-        shipping:
-            title: Shipping
-            slug: shipping
-            url: about/shipping.html
-            published: 1
 services:
     title: Services
     slug: services
     published: 1
     type: directory
     children:
+        shipping:
+            title: Shipping
+            slug: shipping
+            url: testimonials/shipping.html
+            type: page
+            published: 1
+            order: 5
+            children:
+                door-to-door-shipping:
+                    title: 'Door to door Shipping'
+                    slug: door-to-door-shipping
+                    url: door-to-door-shipping
+                    type: page
+                    published: 1
+                    order: 5
+                air-freight:
+                    title: 'Air Freight'
+                    slug: air-freight
+                    url: air-freight
+                    published: 1
+                    type: page
+                    order: 7
+                car-shipping:
+                    title: 'Car Shipping'
+                    slug: car-shipping
+                    url: car-shipping
+                    published: 1
+                    type: page
+                    order: 8
+                container-shipping:
+                    title: 'Container Shipping'
+                    slug: container-shipping
+                    url: container-shipping
+                    published: 1
+                    type: page
+                    order: 8
         money-transfer:
             title: 'Money Transfer'
             slug: money-transfer
