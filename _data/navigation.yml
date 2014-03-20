@@ -41,18 +41,11 @@ testimonials:
     published: 1
     type: page
     order: 0
-contact:
-    title: Contact
-    slug: contact
-    url: contact
-    published: 1
-    type: form
-    order: 2
     children:
         shipping:
             title: Shipping
             slug: shipping
-            url: contact/shipping.html
+            url: testimonials/shipping.html
             type: page
             published: 1
             order: 5
@@ -85,3 +78,11 @@ contact:
                     published: 1
                     type: page
                     order: 8
+contact:
+    title: Contact
+    slug: contact
+    url: contact
+    published: 1
+    type: form
+    order: 2
+    children: {  }
