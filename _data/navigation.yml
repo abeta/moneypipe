@@ -67,11 +67,6 @@ services:
             published: 1
             type: page
             order: 8
-        shipping:
-            title: Shipping
-            slug: shipping
-            url: services/shipping.html
-            published: 1
 testimonials:
     title: Testimonials
     slug: testimonials
