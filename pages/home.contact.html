@@ -7,27 +7,63 @@ permalink: contact.html
 modified: '2014-03-20T01:51:52+00:00'
 ---
 <div class="row">
-<div class="col-sm-8">
-<p class="lead">To request further information please call or email us using the information on the right or fill in the form below. </p>
-<div id="emailSent" class="alert alert-success hidden">Email send</div>
-<form method="post">
-<div class="row">
-<div class="form-group col-sm-6"><label for="name3">Name *</label> <input class="form-control" name="name" required="" type="text" /></div>
-<div class="form-group col-sm-6"><label for="company">Company</label> <input class="form-control" name="company" type="text" /></div>
+  <div class="col-sm-8">
+    <p class="lead">To request further information please call or email us using the information on the right or fill in the form below. </p>
+    <div id="emailSent" class="alert alert-success hidden">Email send</div>
+    <form role="form" action="http://getsimpleform.com/messages?form_api_token=ee510e56c0373993fbbab9e006eaab76" method="post">
+      <div class="row">
+        <div class="form-group col-sm-6">
+          <label for="name3">Name *</label>
+          <input type="text" class="form-control" name="name" required>
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="company">Company</label>
+          <input type="text" class="form-control" name="company">
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-6">
+          <label for="email">Email *</label>
+          <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="telephone">Telephone</label>
+          <input type="tel" class="form-control" name="telephone">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea name="message" rows="5" class="form-control" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-lg">Send Enquiry</button>
+        <input type='hidden' name='redirect_to' value='{{ site.baseurl }}{{ page.url }}#sent' />
+      </div>
+    </form>
+  </div>
+  <div class="col-sm-4">
+    <address class="box">
+      <h4 class="box-header">Money Pipe Ltd. - UK Office</h4>
+      <abbr title="Phone"><i class="fa fa-phone-square fa-fw"></i>:</abbr> 0843 289 6697<br>
+      <abbr title="Mobile"><i class="fa fa-mobile-phone fa-fw"></i>:</abbr> 07713 476 416<br>
+      <abbr title="Email"><i class="fa fa-envelope fa-fw"></i>:</abbr> <a href="mailto:info@moneypipe.co.uk">info@moneypipe.co.uk</a>
+    </address>
+    <address class="box">
+      <h4 class="box-header">Money Pipe Ltd. - Gambia Office</h4>
+      <abbr title="Phone"><i class="fa fa-phone-square fa-fw"></i>:</abbr> (+220) 990 8809<br>
+      <abbr title="Email"><i class="fa fa-envelope fa-fw"></i>:</abbr> <a href="mailto:modou@moneypipe.co.uk">modou@moneypipe.co.uk</a>
+    </address>
+    <div class="box">
+      <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmoneypipe&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:100px; width:100%; margin:-8px -10px 0;" allowTransparency="true"></iframe>
+    </div>
+  </div>
 </div>
-<div class="row">
-<div class="form-group col-sm-6"><label for="email">Email *</label> <input class="form-control" name="email" required="" type="email" /></div>
-<div class="form-group col-sm-6"><label for="telephone">Telephone</label> <input class="form-control" name="telephone" type="tel" /></div>
-</div>
-<div class="form-group"><label for="message">Message *</label> <textarea class="form-control" name="message" required="" rows="5"></textarea></div>
-<div class="form-group"><button class="btn btn-primary btn-lg" type="submit">Send Enquiry</button> <input name="redirect_to" type="hidden" value="{{ site.baseurl }}{{ page.url }}#sent" /></div>
-</form></div>
-<div class="col-sm-4"><address class="box">
-<h4 class="box-header">Money Pipe Ltd. - UK Office</h4>
-<abbr title="Phone">:</abbr> 0843 289 6697<br /> <abbr title="Mobile">:</abbr> 07713 476 416<br /> <abbr title="Email">:</abbr> <a href="mailto:info@moneypipe.co.uk">info@moneypipe.co.uk</a></address><address class="box">
-<h4 class="box-header">Money Pipe Ltd. - Gambia Office</h4>
-<abbr title="Phone">:</abbr> (+220) 990 8809<br /> <abbr title="Email">:</abbr> <a href="mailto:modou@moneypipe.co.uk">modou@moneypipe.co.uk</a></address>
-<div class="box"></div>
-</div>
-</div>
-//
+<script type="text/javascript">
+    function showSent() {
+        if(window.location.hash) {
+            $("#emailSent").removeClass("hidden");
+            $("form button, form input, form textarea").attr("disabled", true);
+        }
+    }
+    window.onload = showSent;
+</script>
