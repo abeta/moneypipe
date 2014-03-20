@@ -17,10 +17,36 @@ services:
     published: 1
     type: directory
     children:
+        money-transfer:
+            title: 'Money Transfer'
+            slug: money-transfer
+            url: money-transfer
+            published: 1
+            type: page
+            order: 7
+        storage:
+            title: Storage
+            slug: storage
+            url: services/storage.html
+            published: 1
+testimonials:
+    title: Testimonials
+    slug: testimonials
+    url: testimonials
+    published: 1
+    type: page
+contact:
+    title: Contact
+    slug: contact
+    url: contact
+    published: 1
+    type: form
+    order: 2
+    children:
         shipping:
             title: Shipping
             slug: shipping
-            url: testimonials/shipping.html
+            url: contact/shipping.html
             type: page
             published: 1
             order: 5
@@ -53,28 +79,3 @@ services:
                     published: 1
                     type: page
                     order: 8
-        money-transfer:
-            title: 'Money Transfer'
-            slug: money-transfer
-            url: money-transfer
-            published: 1
-            type: page
-            order: 7
-        storage:
-            title: Storage
-            slug: storage
-            url: services/storage.html
-            published: 1
-testimonials:
-    title: Testimonials
-    slug: testimonials
-    url: testimonials
-    published: 1
-    type: page
-contact:
-    title: Contact
-    slug: contact
-    url: contact
-    published: 1
-    type: form
-    order: 2
