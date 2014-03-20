@@ -11,6 +11,12 @@ about:
     published: 1
     type: page
     order: 1
+    children:
+        storage:
+            title: Storage
+            slug: storage
+            url: about/storage.html
+            published: 1
 services:
     title: Services
     slug: services
@@ -60,20 +66,12 @@ services:
             published: 1
             type: page
             order: 7
-        storage:
-            title: Storage
-            slug: storage
-            url: services/storage.html
-            published: 1
-            type: page
-            order: 8
 testimonials:
     title: Testimonials
     slug: testimonials
     url: testimonials
     published: 1
     type: page
-    children:
 contact:
     title: Contact
     slug: contact
