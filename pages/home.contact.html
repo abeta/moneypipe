@@ -1,0 +1,34 @@
+---
+title: 'Contact Us'
+slug: contact
+published: 1
+parent: home
+_layout: default
+permalink: home/contact.html
+modified: '2014-03-20T01:51:52+00:00'
+---
+<div class="row">
+<div class="col-sm-8">
+<p class="lead">To request further information please call or email us using the information on the right or fill in the form below. </p>
+<div id="emailSent" class="alert alert-success hidden">Email send</div>
+<form method="post">
+<div class="row">
+<div class="form-group col-sm-6"><label for="name3">Name *</label> <input class="form-control" name="name" required="" type="text" /></div>
+<div class="form-group col-sm-6"><label for="company">Company</label> <input class="form-control" name="company" type="text" /></div>
+</div>
+<div class="row">
+<div class="form-group col-sm-6"><label for="email">Email *</label> <input class="form-control" name="email" required="" type="email" /></div>
+<div class="form-group col-sm-6"><label for="telephone">Telephone</label> <input class="form-control" name="telephone" type="tel" /></div>
+</div>
+<div class="form-group"><label for="message">Message *</label> <textarea class="form-control" name="message" required="" rows="5"></textarea></div>
+<div class="form-group"><button class="btn btn-primary btn-lg" type="submit">Send Enquiry</button> <input name="redirect_to" type="hidden" value="{{ site.baseurl }}{{ page.url }}#sent" /></div>
+</form></div>
+<div class="col-sm-4"><address class="box">
+<h4 class="box-header">Money Pipe Ltd. - UK Office</h4>
+<abbr title="Phone">:</abbr> 0843 289 6697<br /> <abbr title="Mobile">:</abbr> 07713 476 416<br /> <abbr title="Email">:</abbr> <a href="mailto:info@moneypipe.co.uk">info@moneypipe.co.uk</a></address><address class="box">
+<h4 class="box-header">Money Pipe Ltd. - Gambia Office</h4>
+<abbr title="Phone">:</abbr> (+220) 990 8809<br /> <abbr title="Email">:</abbr> <a href="mailto:modou@moneypipe.co.uk">modou@moneypipe.co.uk</a></address>
+<div class="box"></div>
+</div>
+</div>
+//
