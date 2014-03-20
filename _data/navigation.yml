@@ -33,10 +33,26 @@ services:
             published: 1
             type: page
             order: 8
+    order: 0
+testimonials:
+    title: Testimonials
+    slug: testimonials
+    url: testimonials
+    published: 1
+    type: page
+    order: 0
+contact:
+    title: Contact
+    slug: contact
+    url: contact
+    published: 1
+    type: form
+    order: 2
+    children:
         shipping:
             title: Shipping
             slug: shipping
-            url: services/shipping.html
+            url: contact/shipping.html
             type: page
             published: 1
             order: 5
@@ -69,18 +85,3 @@ services:
                     published: 1
                     type: page
                     order: 8
-    order: 0
-testimonials:
-    title: Testimonials
-    slug: testimonials
-    url: testimonials
-    published: 1
-    type: page
-    order: 0
-contact:
-    title: Contact
-    slug: contact
-    url: contact
-    published: 1
-    type: form
-    order: 2
