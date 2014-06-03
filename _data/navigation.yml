@@ -38,9 +38,9 @@ services:
             order: 5
             children:
                 door-to-door-shipping:
-                    title: 'Door to door Shipping'
+                    title: 'Hassle free shipping to The Gambia'
                     slug: door-to-door-shipping
-                    url: door-to-door-shipping
+                    url: services/shipping/door-to-door-shipping.html
                     type: page
                     published: 1
                     order: 5
